@@ -23,12 +23,14 @@ function AddTransactionForm({ transactions, setTransactions }) {
 			<form className="ui form" onSubmit={onSubmit}>
 				<div className="inline fields">
 					<input
+						required
 						onChange={handleChange}
 						type="date"
 						name="date"
 						value={data.date || ""}
 					/>
 					<input
+						required
 						onChange={handleChange}
 						type="text"
 						name="description"
@@ -36,6 +38,7 @@ function AddTransactionForm({ transactions, setTransactions }) {
 						value={data.description || ""}
 					/>
 					<input
+						required
 						onChange={handleChange}
 						type="text"
 						name="category"
@@ -43,6 +46,7 @@ function AddTransactionForm({ transactions, setTransactions }) {
 						value={data.category || ""}
 					/>
 					<input
+						required
 						onChange={handleChange}
 						type="number"
 						name="amount"

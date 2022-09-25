@@ -90,6 +90,13 @@
       "category": "income",
       "amount": "1000",
       "id": 13
+    },
+    {
+      "date": "2022-09-06",
+      "description": "Paid for son's toy",
+      "category": "expense",
+      "amount": "10",
+      "id": 14
     }
   ]
 }
