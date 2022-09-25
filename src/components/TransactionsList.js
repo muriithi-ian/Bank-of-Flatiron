@@ -20,7 +20,6 @@ function TransactionsList(transactions) {
 					</th>
 				</tr>
 				{/* render a list of <Transaction> components here */}
-				{console.log(transactions)}
 				{transactions.transactions.map((transaction) => {
 					return (
 						<Transaction
