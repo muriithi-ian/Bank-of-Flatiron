@@ -24,6 +24,7 @@ function TransactionsList(transactions) {
 					return (
 						<Transaction
 							key={transaction.id}
+							id={transaction.id}
 							amount={transaction.amount}
 							date={transaction.date}
 							description={transaction.description}

@@ -24,7 +24,10 @@ function AccountContainer() {
 	return (
 		<div>
 			<Search filterTransactions={filterTransactions} />
-			<AddTransactionForm />
+			<AddTransactionForm
+				transactions={transactions}
+				setTransactions={setTransactions}
+			/>
 			<TransactionsList transactions={filtered || transactions} />
 		</div>
 	);
